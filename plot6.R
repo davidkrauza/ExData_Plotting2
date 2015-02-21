@@ -15,7 +15,7 @@ if(!file.exists("summarySCC_PM25.rds")
 
 #read RDS files
 NEI <- readRDS("summarySCC_PM25.rds")
-SCC <- readRDS("Source_Classification_Code.rds")
+#SCC <- readRDS("Source_Classification_Code.rds")
 
 #extract data
 data.baltimore <- NEI[which(NEI$fips=="24510"),]
